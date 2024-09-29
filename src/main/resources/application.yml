@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://5432/ex2
+    username: postgres
+    password: toor
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    database: postgresql
+    open-in-view: false
+
